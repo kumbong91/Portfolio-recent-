@@ -1,0 +1,202 @@
+<!DOCTYPE html>
+<html>
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1, maximum-scale=1">
+    <title>Front-End Developer</title>
+    <link rel="stylesheet" href="css/style.css">
+    <link href="https://fonts.googleapis.com/css?family=Josefin+Sans&display=swap" rel="stylesheet">
+    <link href="https://fonts.googleapis.com/css?family=Poppins&display=swap" rel="stylesheet">
+    <link href="https://fonts.googleapis.com/css?family=Ubuntu&display=swap" rel="stylesheet">
+    
+</head>
+<body>
+    <button onclick="topFunction()" id="myBtn" title="Go to top">
+      
+    </button>
+    
+
+    <div id="wrap">
+        <header>
+            <div class="headerIn">
+            <ul class="menu">
+                <li><a href="#contact" class="scroll">Contact</a></li>
+                <li><a href="#pfol" class="scroll">Portfolio</a></li> 
+                <li><a href="#about" class="scroll">About</a></li>
+                <li><a href="#p01" class="scroll">Home</a></li>
+            </ul>
+            </div>
+
+            <div id="p01"class="container bg-holder" data-width="1200" data-height="730">
+                    <section  class="content01">
+                        <div id="home">    
+                            <p>I'm ready to be a<br>Front-End Developer</p>
+                        </div>
+                    </section>
+            </div>
+        </header><!--header-->
+    
+        <div id="about" class="container bg-holder" data-width="1200" data-height="730">
+        <section  class="content02">
+                <p>What I can do</p>
+                    <img src="img/scroll.png">
+                    
+                
+            <span class="span">
+                    <div class="left">HTML5</div>
+                    <div class="right">CSS3</div>
+                    <div class="left">JavaScript</div>
+                    <div class="right">jQuery</div>
+                    <div class="left">Ajax</div>
+            </span>
+        </section>
+        </div><!--about-->
+    <div  id="pfol" class="container bg-holder" data-width="1200" data-height="730">
+        <section  class="content03">
+            <div class="sub">What I did</div>
+            <div class="post"> 
+                
+                <li class="room">
+                    <div class="list">
+                                <h2>
+                                    <span>Todo List</span>
+                                </h2>
+                                
+                                <p>
+                                    Vanila JavaScript, API
+                                </p>
+                    </div>
+                    <div class="btn">
+                        <a href="./story/todo.html" target="blank">
+                            Check this out
+                        </a>
+                    </div>     
+                </li>
+            
+                <li class="room">
+                    <div class="list">
+                                <h2>
+                                    <span>반응형 웹페이지</span>
+                                </h2>
+                                
+                                <p>
+                                   HTML5, CSS3
+                                </p>
+                    </div>
+                    <div class="btn">
+                        <a href="./story/coffee.html" target="_blank">
+                            Check this out
+                        </a>
+                    </div>     
+                </li>
+            
+                        <li class="room">
+                            <div class="list">
+                                    <h2>
+                                        <span>Starbucks</span>
+                                    </h2>
+                                    
+                                    <p>
+                                       jQuery, bx-slider 
+                                    </p>
+                            </div>
+                            <div class="btn">
+                                <a href="./story/starbucks.html" target="_blank">
+                                    Check this out
+                                </a>
+                            </div>     
+                        </li>
+            
+                        <li class="room">
+                            <div class="list">
+                                    <h2>
+                                        <span>Gallery</span>
+                                    </h2>
+                                    
+                                    <p>
+                                       jQuery 
+                                    </p>
+                            </div>
+                            <div class="btn">
+                                <a href="./story/gallery.html" target="_blank">
+                                    Check this out
+                                </a>
+                            </div>              
+                        </li>
+            
+                        <li class="room">
+                            <div class="list">
+                                    <h2>
+                                        <span>Onepage</span>
+                                    </h2>
+                                    
+                                    <p>
+                                        jQuery, Scroll
+                                    </p>
+                            </div>
+                            <div class="btn">
+                                <a href="./story/onepage.html" target="_blank">
+                                    Check this out
+                                </a>
+                            </div>     
+                        </li>
+                        
+                        <li class="room">
+                            <div class="list">
+                                    <h2>
+                                        <span>bean o'clock</span>
+                                    </h2>
+                                    
+                                    <p>
+                                        jQuery, Parallax-scroll
+                                    </p>
+                            </div>
+                            <div class="btn">
+                                <a href="./story/parallax-scroll.html" target="_blank">
+                                    Check this out
+                                </a>
+                            </div>     
+                        </li>
+
+                        <li class="room">
+                            <div class="list">          
+                                    <h2>
+                                        <span>Tmon</span>
+                                    </h2>
+                                    
+                                    <p>
+                                       jquery, bx-slider 
+                                    </p>
+                            </div>
+                            <div class="btn">
+                                <a href="./story/tmon.html" target="_blank">
+                                    Check this out
+                                </a>
+                            </div>     
+                        </li>
+               
+            </div>
+        </section>
+    </div><!--#pfol-->
+        <footer id="contact">
+            <div class="footerIn">Contact me</div>
+            
+            <div class="mail">
+                <p id="p1">kumbong91@gmail.com</p>
+                <button onclick="copy('#p1')" class="copyBtn">Copy</button>
+            </div>
+            <!--
+            <div class="kakao">
+                <img src="img/Kakao.jpg" width="80" height="70">
+                <p>kakaotalk</p>
+            </div>-->
+        </footer>
+    </div><!--#wrap-->
+    
+    <script src="js/jquery-3.4.1.min.js"></script>
+    <script src="js/jquery.bxslider.js"></script>
+    <script src="js/jquery.parallax-scroll.min.js"></script>
+    <script src="js/index.js"></script>
+
+</body>
+</html>
